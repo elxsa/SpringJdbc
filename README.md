@@ -29,7 +29,8 @@ Clasa "PersoanaJdbcDao" oferă operațiile de bază pentru manipularea datelor: 
 -  metoda query() din clasa JdbcTemplate returnează o listă rezultat, iar metodă queryForObject() returnează un singur obiect;
 
 - metoda update() din clasa JdbcTemplate permite rularea comenzilor DML: insert, update, delete. În urma rulării acestora se returnează numărul de rânduri afectate de comandă;
-  Clasa programului principal are următorul conținut:
+
+Clasa programului principal are următorul conținut:
 
 - interfaţa CommandLineRunner, pe care clasa programului principal o implementează, dispune de metoda run() care va fi apelată automat la pornirea aplicației, după ce contextul aplicației a fost complet inițializat;
 
