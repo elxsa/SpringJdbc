@@ -36,10 +36,3 @@ Clasa "PersoanaJdbcDao" oferă operațiile de bază pentru manipularea datelor: 
 - o instanță "PersoanaJdbcDao" este injectată automat în clasa programului principal;
 
 - în metoda run se apelează metodele din clasa "PersoanaJdbcDao" și se afișează mesaje corespunzătoare.
-
-
-
-
-
- 
-
